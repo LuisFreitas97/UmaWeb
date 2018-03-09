@@ -19,14 +19,7 @@ body, html {
 }
 
 .printScreen {
-    height: 100%; 
-    width:100%;
-    margin:auto;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   image-resolution: 500dpi;
 }
 
 .carousel-size{
