@@ -46,6 +46,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$("#navbarInfoAluno"). click(function(){
+	$("#bInfoRapidas").hide();
+	$("#bInfoTotal").hide();
 	$("#infoRapidas").hide();
 	$("#background").hide();
 	$("#infoAluno").show();
