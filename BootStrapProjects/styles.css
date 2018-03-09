@@ -1,0 +1,39 @@
+body, html {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+.bg { 
+    /* The image used */
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+
+    height: 100%; 
+    width:100%;
+    margin:auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.printScreen {
+   image-resolution: 500dpi; 
+}
+
+.carousel-size{
+height: 75%; 
+    width:75%;
+    margin:auto;
+}
+.ui-carousel-indicator-active{
+background-color:black;
+border-color:black;
+}
+
+.image-size{
+height:7%;
+width:7%;
+margin:auto;
+}
